@@ -65,24 +65,29 @@ table
 
     .container
     {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        height: 80%;
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 3%;
+        margin-right: 5%;
+        height: 90%;
     }
 
     input
     {
         margin-right: 10%;
-        margin-left: 8%;
+        margin-left: 5%;
         width: 80%;
     }
 
     table
     {
-        margin-right: 10%;
-        margin-left: 8%;
-        width: 80%;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
         
+    }
+    tr , td
+    {
+        height: 100px;
     }
   }
