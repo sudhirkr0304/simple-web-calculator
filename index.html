@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <div class="container"> 
+            <div class="allinput">
+                <input type="text" value="" id="value" >
+            </div>
+            <div class="number">
+                <table>
+                    <tr>
+                        <td id="number1" onclick="tdclick('1');">1</td>
+                        <td id="number2" onclick="tdclick('2');">2</td>
+                        <td id="number3" onclick="tdclick('3');">3</td>
+                        <td id="plus" onclick="tdclick('+');">+</td>
+                    </tr>
+                    <tr>
+                        <td id="number4" onclick="tdclick('4');">4</td>
+                        <td id="number5" onclick="tdclick('5');">5</td>
+                        <td id="number6" onclick="tdclick('6');">6</td>
+                        <td id="substract" onclick="tdclick('-');">-</td>
+                    </tr>
+                    <tr>
+                        <td id="number7" onclick="tdclick('7');">7</td>
+                        <td id="number8"  onclick="tdclick('8');">8</td>
+                        <td id="number9" onclick="tdclick('9');">9</td>
+                        <td id="multiply" onclick="tdclick('*');">*</td>
+                    </tr>
+                    <tr>
+                        <td id="erase" onclick="erase();">C</td>
+                        <td id="dot" onclick="tdclick('.');">.</td>
+                        <td id="divide" onclick="tdclick('/');">/</td>
+                        <td id="equal" onclick="calculate();">=</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

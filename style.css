@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgba(255, 255, 0, 0.527);
+}
+
+#delete
+{
+    font-size: 1.5em;
+}
+.container
+{
+    
+    margin-top: 10%;
+    position: fixed;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 20%;
+    background-color: aqua;
+}
+
+
+input
+{
+    position: relative;
+    width: 70%;  
+    pointer-events: none;
+    border-radius: 5px;
+    font-size: 2em;
+    padding: 2% 5% 2% 5%;
+    margin: 5% 10% 5% 10%;
+}
+
+
+ tr , td
+{
+
+    border: 2px solid black;
+    background-color: rgb(30, 39, 37);
+    color: white;
+}
+
+
+td
+{
+    margin: 10px;
+}
+
+
+table
+{
+    border-spacing: 5px;
+    text-align: center;
+    margin-bottom: 5%; 
+    font-size: 3em;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .container
+    {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 80%;
+    }
+
+    input
+    {
+        margin-right: 10%;
+        margin-left: 8%;
+        width: 80%;
+    }
+
+    table
+    {
+        margin-right: 10%;
+        margin-left: 8%;
+        width: 80%;
+        
+    }
+  }
